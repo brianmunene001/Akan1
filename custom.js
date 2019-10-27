@@ -96,7 +96,8 @@ Math.floor(newYear / 400) + Math.floor((31 * m) / 12)) % 7;
 var daysOfaweek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',       
      'Thursday', 'Friday', 'Saturday');
 var realDay = daysOfaweek[dayOfTheWeek];
-f(newGender === 'female') {
+
+if(newGender === 'female') {
     for (var name in femaleNames) {
             if (femaleNames.hasOwnProperty(name)) {
                 if (name === realDay) {
@@ -104,3 +105,15 @@ f(newGender === 'female') {
                 }
             }
         }
+    }else if(newGender === 'male') {
+        for (var name in maleNames) {
+            if (maleNames.hasOwnProperty(name)) {
+                if (name === realDay) {
+                    alert("Your Akan name is "+maleNames[name]);
+                }
+            }
+        }
+        
+        }
+    }
+    
