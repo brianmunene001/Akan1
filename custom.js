@@ -28,4 +28,9 @@ var maleNames = {
                 alert("invalid date");
                 return false;
             }
-            
+            var ListofDays = [31,28,31,30,31,30,31,31,30,31,30,31];
+if(isNaN(month) || month=== "" || month ===null || month <1 || month>12){
+    
+    alert("invalid month");
+   return false;
+}
