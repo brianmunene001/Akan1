@@ -43,3 +43,6 @@ return false;
 }
 if(month===2){
     var lyear = false;
+    if ( (!(year % 4) && year % 100) || !(year % 400)) 
+{
+  
