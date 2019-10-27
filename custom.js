@@ -34,3 +34,6 @@ if(isNaN(month) || month=== "" || month ===null || month <1 || month>12){
     alert("invalid month");
    return false;
 }
+if(month===1 || month>2){
+    if (date>ListofDays[month-1])
+    {
