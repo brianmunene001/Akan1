@@ -81,3 +81,9 @@ if (gen[0].checked === false && gen[1].checked === false) {
 return userInputs;
             }           
 }
+function myFunction(){
+    var a = validation();
+    var DD = parseInt(a.userDate);
+    var MM = parseInt(a.userMonth);
+    var newYear = a.userYear;
+    var newGender = a.userGender;
