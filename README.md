@@ -13,3 +13,8 @@ You can start working on the project anytime you want as long as you have the na
 
 ## BDD
 The project what it does is basically it will give you a name based on the week on you were born and your first name as the day name.If you were born Kwasi then the app will give you a name called Sunday since the culture clearly states that you are assigned a name depending on the time born. 
+
+## Technologies used
+-html
+-css
+-Js
