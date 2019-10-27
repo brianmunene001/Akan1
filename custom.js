@@ -57,3 +57,8 @@ if ((lyear==true) && (date>29))
     alert('Invalid date format!');
 return false;
 }
+}
+if(isNaN(year) || year === "" ||year === null || year <1900 || year > currentYear){
+    alert("invalid year");
+    return false;
+}
