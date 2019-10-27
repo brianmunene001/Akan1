@@ -23,3 +23,14 @@
     color: white;
   
 }
+.gender{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 50px;
+    padding: 8px 0; 
+    cursor: pointer;
+    margin: 0 auto;
+    color: navy;
+}
