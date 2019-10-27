@@ -74,3 +74,10 @@ body{
     height:170vh ;
     width: 200vh;
    }
+   .login-box,h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px;
+    margin-bottom: 50px;
+    
+}
