@@ -62,3 +62,6 @@ if(isNaN(year) || year === "" ||year === null || year <1900 || year > currentYea
     alert("invalid year");
     return false;
 }
+if (gen[0].checked === false && gen[1].checked === false) {
+
+    alert('select gender');
