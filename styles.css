@@ -57,3 +57,20 @@ form {
     border-block-end-color: mediumseagreen;
     border-bottom: midnightblue;
 }
+body{
+    font-size:solid;
+    flex-direction: column;
+    background-image:url("https://netstorage-yen.akamaized.net/images/3o3bpd490e57t1ueo.jpg?imwidth=900");
+    background-repeat: no-repeat;
+    background-color: bisque;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    color: white;
+    flex-grow: initial;
+    height:170vh ;
+    width: 200vh;
+   }
