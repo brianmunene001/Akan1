@@ -16,3 +16,16 @@ var maleNames = {
         Friday: 'Afua',
         Saturday: 'Ama',
         };
+        function validation() {
+            var date = document.getElementById("d").value;
+            var month = document.getElementById("m").value;
+            var year = document.getElementById("yy").value;
+            var gen = document.getElementsByName("gd");
+            var currentDate = new Date();
+            var currentYear = currentDate.getFullYear();
+            
+            if(isNaN(date) || date === null || date === "" || date < 1 || date > 31){
+                alert("invalid date");
+                return false;
+            }
+            
