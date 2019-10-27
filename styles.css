@@ -81,3 +81,13 @@ body{
     margin-bottom: 50px;
     
 }
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid brown;
+    padding: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 12px 0;
+    color: pink;
+}
