@@ -91,3 +91,12 @@ body{
     margin: 12px 0;
     color: pink;
 }
+p{
+    clear: both;
+    color: whitesmoke darkgrey;
+    display: block;
+    font-size: 20px;
+    font-display: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
