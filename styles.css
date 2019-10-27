@@ -34,3 +34,9 @@
     margin: 0 auto;
     color: navy;
 }
+h2{
+    font-style: italic;
+    color: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
