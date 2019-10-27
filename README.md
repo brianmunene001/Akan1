@@ -1,2 +1,2 @@
 # Project Name
-Akan Names OUtputs
+Akan Names Outputs
