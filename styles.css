@@ -50,3 +50,10 @@ h2{
     transform: translate(-50%, 50%);
     padding-top:0;
 }
+form {
+    size: 0rem;
+    display: inline;
+    border-spacing: 0rem;
+    border-block-end-color: mediumseagreen;
+    border-bottom: midnightblue;
+}
