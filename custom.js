@@ -92,6 +92,15 @@ var y = newYear - a;
 var m = MM + 12 * a - 2;
 var dayOfTheWeek = (DD + y + Math.floor(y / 4) - Math.floor(y / 100) +
 Math.floor(newYear / 400) + Math.floor((31 * m) / 12)) % 7;
+
 var daysOfaweek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',       
      'Thursday', 'Friday', 'Saturday');
 var realDay = daysOfaweek[dayOfTheWeek];
+f(newGender === 'female') {
+    for (var name in femaleNames) {
+            if (femaleNames.hasOwnProperty(name)) {
+                if (name === realDay) {
+                    alert("Your Akan name is "+femaleNames[name]);
+                }
+            }
+        }
