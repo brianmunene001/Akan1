@@ -78,3 +78,6 @@ if (gen[0].checked === false && gen[1].checked === false) {
     userYear: year,
     userGender: gend
 };
+return userInputs;
+            }           
+}
