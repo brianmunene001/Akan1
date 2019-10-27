@@ -1,0 +1,13 @@
+.textbox{
+    display:block;
+    padding: 30px;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    font-size: 50px;
+    padding: 20px;
+    color: orange;
+    color-adjust: red;
+    text-align: center;
+    size: 20px;
+}
