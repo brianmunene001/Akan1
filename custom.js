@@ -37,3 +37,7 @@ if(isNaN(month) || month=== "" || month ===null || month <1 || month>12){
 if(month===1 || month>2){
     if (date>ListofDays[month-1])
     {
+        alert('Invalid date format!');
+return false;
+}
+}
