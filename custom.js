@@ -49,3 +49,6 @@ if(month===2){
 }
 if ((lyear==false) && (date>=29))
 {
+    alert('Invalid date format!');
+return false;
+}
