@@ -65,3 +65,10 @@ if(isNaN(year) || year === "" ||year === null || year <1900 || year > currentYea
 if (gen[0].checked === false && gen[1].checked === false) {
 
     alert('select gender');
+} else {
+    for (var i = 0; i < gen.length; i++) {
+        if (gen[i].checked){
+           alert(gen[i].value);
+               gend = gen[i].value;
+    }
+   }
