@@ -72,3 +72,9 @@ if (gen[0].checked === false && gen[1].checked === false) {
                gend = gen[i].value;
     }
    }
+   var userInputs ={
+    userDate: date,
+    userMonth: month,
+    userYear: year,
+    userGender: gend
+};
